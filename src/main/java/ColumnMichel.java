@@ -13,6 +13,8 @@ public class ColumnMichel {
     private String title;
     private String columnText;
     private LocalDate dateWhenColumnIsPlaced;
+
+    public ColumnMichel(){}
     public ColumnMichel(String title, String columnText, LocalDate dateWhenColumnIsPlaced) {
         this.title = title;
         this.columnText = columnText;
